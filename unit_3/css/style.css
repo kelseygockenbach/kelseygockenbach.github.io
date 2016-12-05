@@ -1,0 +1,10 @@
+body{
+	text-align: center;
+	background: url("images/pool_floatie.jpg");
+	background-size: cover;
+	color: #000;
+	font-family: Helvetica;
+}
+#slogan{
+	font-style: italic;
+}
