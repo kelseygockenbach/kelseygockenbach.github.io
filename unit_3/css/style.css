@@ -3,10 +3,12 @@ body{
 	background-size: cover;
 	color: #fff;
 	font-family: Helvetica;
+	font-size: 22px;
 }
 h1, h2 {
 	text-align: center;
 }
 #slogan{
 	font-style: italic;
+	text-align: center;
 }
