@@ -3,12 +3,17 @@ body{
 	background-size: cover;
 	color: #fff;
 	font-family: Helvetica;
-	font-size: 22px;
+	font-size: 35px;
+	font-weight: bold;
 }
 h1, h2 {
 	text-align: center;
 }
-#slogan{
+ul {
+	text-align: center;
+	list-style-type: none;
+}
+#slogan {
 	font-style: italic;
 	text-align: center;
 }
