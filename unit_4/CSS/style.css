@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300|Poiret+One');
+body{
+	background: url("http://i.imgur.com/L02pEpP.jpg");
+	background-size: cover;
+	color: #fff;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+}
+h1, h2 {
+	text-align: center;
+}
+h1{
+	font-size: 75px;
+	font-family: "Poiret One", cursive;
+}
+h2{
+	font-size: 24px;
+}
+ul {
+	text-align: center;
+	list-style-type: none;
+}
+#slogan {
+	text-align: center;
+	font-family: "Josefin Sans";
+}
+#description {
+	text-align: center;
+}
+hr {
+	width: 200px;
+}
+.menu {
+	text-align: center;
+}
+a{
+	color: inherit;
+}
