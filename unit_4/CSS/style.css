@@ -4,9 +4,8 @@ body{
 	background-size: cover;
 	color: #fff;
 	font-family: "Josefin Sans", sans-serif;
-	font-size: 30px; /*1em = 24px*/
+	font-size: 30px; /*1em = 30px*/
 	font-weight: normal;
-	font-size: 30px;
 	font-weight: bold;
 }
 h1, h2 {
