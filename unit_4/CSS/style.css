@@ -4,8 +4,13 @@ body{
 	background-size: cover;
 	color: #fff;
 	font-family: "Josefin Sans", sans-serif;
+<<<<<<< HEAD
 	font-size: 30px; /*1em = 24px*/
 	font-weight: normal;
+=======
+	font-size: 30px;
+	font-weight: bold;
+>>>>>>> origin/master
 }
 h1, h2 {
 	text-align: center;
