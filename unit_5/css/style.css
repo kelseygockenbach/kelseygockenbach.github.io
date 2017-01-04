@@ -9,6 +9,11 @@ body{
 	font-size: 30px;
 	font-weight: bold;
 }
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px	;
+}
 h1, h2 {
 	text-align: center;
 }
@@ -31,14 +36,27 @@ p{
 hr{
 	width: 200px;
 }
-.menu {
+nav {
+	background-color:#E8C66A;
+	border: 1px black solid;
+	padding: 20px;
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 4px;
 	padding:0 32px;
 }
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+	font-size: .5em;
+	text-align: center;
+}
 .firstsection {
+	background-color:#FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
 	text-transform: uppercase;
 	letter-spacing: 4px;
 }
