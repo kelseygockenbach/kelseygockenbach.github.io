@@ -21,6 +21,9 @@ h1{
 	font-size: 4em;
 	font-family: "Poiret One", cursive;
 }
+h2 {
+	line-height:.5em;
+}
 ul {
 	text-align: center;
 	list-style-type: none;
@@ -44,7 +47,12 @@ nav {
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 4px;
-	padding:0 32px;
+}
+article {
+	background-color: #E89C6C;
+	font-size: .5em;
+	border: 1px black solid;
+	padding: 20px;
 }
 footer {
 	background-color: #FF957E;
@@ -67,4 +75,9 @@ footer {
 }
 #description {
 	text-align: center;
+}
+#kelseyphoto {
+	max-height: 200px;
+	margin: 10px;
+	float: left;
 }
