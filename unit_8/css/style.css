@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300|Poiret+One');
+body {
+	background-color: #ffcfbe;
+	background-size: 100%;
+	color: #536882;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 16px; /*1em = 16px*/
+	font-weight: bold;
+}
+header {
+	padding: 20px;
+}
+h1, h2 {
+	text-align: center;
+}
+h1 {
+	font-size: 6em;
+	font-family: "Poiret One", cursive;
+}
+h2 {
+	line-height:.75em;
+	font-size: 3em;
+	clear: both;
+}	
+a {
+	color: inherit;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5em;
+	font-size: 2.25em;
+}
+hr {
+	width: 90%;
+	height: 5px;
+	background: #293441;
+}
+nav {
+	display: block;
+	padding: 25px;
+	width: 100%;
+	font-size: 1.5em;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 4px;
+	background-color: #293441;
+}
+nav a {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+article {
+	font-size: .75em;
+	padding: 20px;
+}
+footer {
+	padding: 20px;
+	font-size: .75em;
+	text-align: center;
+	clear: both;
+}
+.firstsection {
+	padding: 20px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+.aboutme {
+	width: 90%;
+	font-size: .75em;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+#name_slogan {
+	padding: 200px 10px 200px 10px;
+}
+#slogan {
+	text-align: center;
+	font-family: "Josefin Sans";
+	font-style: italic;
+}
+#description {
+	text-align: center;
+}
+#contact_me {
+	padding: 50px;
+}
+#two_column {
+	padding: 20px;
+}
+#left {
+	padding: 20px;
+	float: left;
+	width: 30%;
+	min-width: 350px;
+}
+#right {
+	padding: 20px;
+	float: right;
+	width: 30%;
+	min-width: 350px;
+}
+#about {
+	text-transform: uppercase;
+	font-size: 3em;
+	letter-spacing: 3px;
+	padding: 20px;
+	}
+#kelseyphoto {
+	max-height: 200px;
+	margin: 0px 10px 0px 10px;
+	float: left;
+}
+@media only screen and (max-width: 876px) {
+	#left, #right {
+		float: none;
+		width: 65%;
+	}
+}
+@media only screen and (max-width: 824px) {
+	h1 {
+		font-size: 4.5em;
+	}
+}
+@media only screen and (max-width: 736px) {
+	nav {
+		float: none;
+		padding: .75em;
+	}
+	nav a {
+		padding: .75em;
+	}
+	#slogan, #description {
+		font-size: 1.5em;
+	}
+}
+@media only screen and (max-width: 720px) {
+	nav a{
+		float: left;
+	}
+}
